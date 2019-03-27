@@ -1,0 +1,141 @@
+#navbar {
+  height: 100px;
+  font-family: Garamond, Arial, sans-serif;
+  text-align: left;
+  border-bottom: solid;
+}
+
+.navbar-custom {
+  background-color: #EAE6E5;
+}
+
+#logo {
+  margin-right: 20px;
+}
+
+.navbar-toggler {
+  margin-bottom: 50px;
+}
+
+#item {
+  padding-right: 20px;
+}
+
+#navpills {
+  background-color: #EAE6E5;
+}
+
+.carousel-inner img {
+  margin: auto;
+}
+
+#carousel {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#signature {
+  margin-top: 10px;
+ }
+
+#form {
+  border: solid;
+  padding: 40px 40px 40px 40px;
+  margin-top: 30px;
+}
+
+#card {
+  margin-left: 3px;
+}
+
+#idcard {
+  width: 23rem; 
+  border: solid;
+}
+
+#cardtitle {
+  text-align: center;
+  border-bottom: solid;
+  padding-bottom: 10px;
+  background-color: #D1CCCC; 
+}
+
+#idnews1 #idnews2 { 
+  width: 34rem;
+}
+
+#sitebutton {
+  background-color: #DCBFAE;
+
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  margin: 15px 5px 10px 2px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.fa:hover {
+    opacity: 0.8;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+#social-copyright {
+	height: 210px;
+	background-color: black;
+}
+
+#Copyright {
+	font-size: 15px;
+	font-family: Helvetica, Arial, sans-serif;
+	margin-top: 40px;
+	color: white;
+}
+
+#social {
+	text-align: right;
+}
+
+/* Media queries */
+    @media (max-width: 993px) {
+      #logo {
+        width: 250px;
+        height: 83px;
+      }
+    }
+
+    @media (max-width: 500px) {
+        #idnews {
+          width: 23rem;
+        }
+
+        #social {
+          text-align: center;
+        }
+
+        #Copyright {
+        	text-align: center;
+        }
+      }
